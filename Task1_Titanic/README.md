@@ -1,51 +1,52 @@
-# Titanic Survival Prediction
+# Movie Rating Prediction
 
 ## Objective
 
-The objective of this project is to predict whether a passenger survived the Titanic disaster using machine learning techniques.
+The objective of this project is to predict movie ratings using machine learning techniques based on movie-related features such as genre and votes.
 
 ## Dataset
 
-Titanic Dataset containing passenger information such as:
+IMDb India Movies Dataset
 
-* Passenger Class (Pclass)
-* Gender (Sex)
-* Age
-* Number of Siblings/Spouses Aboard (SibSp)
-* Number of Parents/Children Aboard (Parch)
-* Fare
-* Embarked Location
+Features Used:
+
+* Genre
+* Votes
 
 Target Variable:
 
-* Survived
+* Rating
 
 ## Technologies Used
 
 * Python
 * Pandas
-* NumPy
+* Matplotlib
 * Scikit-learn
 
-## Data Preprocessing
+## Data Analysis
 
-* Loaded the dataset
+* Loaded and explored the dataset
 * Checked for missing values
-* Encoded categorical features
-* Selected important features
-* Split data into training and testing sets
+* Cleaned and preprocessed the data
+* Converted categorical data into numerical format
+* Visualized rating distribution
 
 ## Machine Learning Model
 
-Logistic Regression
+Random Forest Regressor
 
 ## Results
 
-Model Accuracy: 81.0%
+Mean Absolute Error (MAE): 1.046
+
+R² Score: 0.018
+
+The model successfully predicted movie ratings. Additional features such as director, actors, and duration could improve prediction performance.
 
 ## Conclusion
 
-The Logistic Regression model successfully predicted passenger survival with good accuracy. Features such as passenger class, age, fare, and gender contributed significantly to the predictions.
+This project demonstrates the use of machine learning for predicting movie ratings. Data preprocessing, feature engineering, and model selection play an important role in improving prediction accuracy.
 
 ## Author
 
